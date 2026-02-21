@@ -1,0 +1,9 @@
+LD_PRELOAD="/usr/local/lib/listen-jail/listen-jail.so"
+
+HTTP_HOST="192.168.1.1"
+
+export LISTEN_JAIL_DEBUG=1
+export BIND_INTERFACE="eth1"
+#export BIND_IP="${HTTP_HOST}"
+
+#export LD_PRELOAD
